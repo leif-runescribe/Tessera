@@ -5,7 +5,7 @@ const NET_URL = process.env.NET_URL;
 const PRIV_KEY = process.env.PRIV_KEY;
 
 module.exports = {
-  solidity: "0.8.9",
+  solidity: "0.8.0",
   networks: {
     xinfin: {
       url: NET_URL,
